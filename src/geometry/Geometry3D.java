@@ -1,6 +1,12 @@
 package geometry;
 
+/**
+ * Abstract class representing 3D geometries.
+ */
 public abstract class Geometry3D {
-	abstract double volume();
-	abstract double surfaceArea();
+    /**
+     * Calculates the volume of the 3D geometry.
+     * @return The volume.
+     */
+    public abstract double getVolume();
 }
