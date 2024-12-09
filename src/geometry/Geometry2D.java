@@ -1,6 +1,12 @@
 package geometry;
 
+/**
+ * Abstract class representing 2D geometries.
+ */
 public abstract class Geometry2D {
-	abstract double area();
-	abstract double perimeter();
+    /**
+     * Calculates the area of the 2D geometry.
+     * @return The area.
+     */
+    public abstract double getArea();
 }
